@@ -1,5 +1,5 @@
 # Sparse Set XCC solver in Go
-[Sparse-set XCC Solver](https://www-cs-faculty.stanford.edu/~knuth/programs/ssxcc.w) in Go based on Donald Knuth's Dancing Cells presented in the [27th Annual Christmas Tree Lecture](https://www.youtube.com/watch?v=622iPkJfYrI&list=WL&index=3).
+[Sparse set XCC solver](https://www-cs-faculty.stanford.edu/~knuth/programs/ssxcc.w) in Go based on Donald Knuth's Dancing Cells presented in the [27th Annual Christmas Tree Lecture](https://www.youtube.com/watch?v=622iPkJfYrI&list=WL&index=3).
 
 ## Problem statement
 The solver takes:
@@ -18,7 +18,6 @@ Options can contain secondary items with or without colors. If a secondary item 
 ```
 p q r
 x y
-  
 p q x y:A
 p r x:A y
 p x:B

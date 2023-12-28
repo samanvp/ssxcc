@@ -23,7 +23,7 @@ type XCC struct {
 	active int
 }
 
-func xccBuilder(rd io.Reader) (*XCC, error) {
+func Builder(rd io.Reader) (*XCC, error) {
 	var primary []string
 	var secondary []string
 	var options [][]string
