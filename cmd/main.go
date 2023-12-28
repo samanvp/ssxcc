@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/samanvp/ssxcc/pkg/xcc"
+	xcc "github.com/samanvp/ssxcc/pkg"
 )
 
 func main() {
