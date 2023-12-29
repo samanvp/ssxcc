@@ -45,6 +45,7 @@ A sparse set is a simple data structure that has following properties:
 Solving this problem on its own is an interesting programming exercise. For more information refer to these two blog posts:
 * [Sparse sets by Oleksandr Manenko](https://manenko.com/2021/05/23/sparse-sets.html)
 * [Using Uninitialized Memory for Fun and Profit by Russ Cox](https://research.swtch.com/sparse)
+Also this [sparse set implemented in Go](https://github.com/downflux/go-sparseset/tree/main) can be useful to Go programmers.
  
 
 
