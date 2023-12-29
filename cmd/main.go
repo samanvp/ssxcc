@@ -19,6 +19,15 @@ func main() {
 		log.Fatal(err)
 	}
 
-	xcc.Builder(fd)
+	inputProb, err := xcc.Builder(fd)
+	inputProb.IsConsistent()
+
+	inputProb.ProcessOption(2)
+	inputProb.IsConsistent()
+	fmt.Println(inputProb)
+	inputProb.UndoOption(2)
+	inputProb.IsConsistent()
+	fmt.Println(inputProb)
+
 	fmt.Println("main execution is done.")
 }

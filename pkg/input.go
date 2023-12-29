@@ -51,6 +51,10 @@ func (si SolverInput) GetSCount() int {
 	return len(si.secondary)
 }
 
+func (si SolverInput) GetOCount() int {
+	return si.oCount
+}
+
 func (si SolverInput) GetSetLen() int {
 	// SET array has one element for item in options plus
 	// two value for each (primary+secondary) item POS and SIZE
